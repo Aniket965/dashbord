@@ -4,17 +4,12 @@ body
         .upper-view
             .row.nomarg
                 .col.s12.m12.l3.nopad.nomarg
-                    include ./portfolio-view.jade                  
+                    .row
+                        include ./portfolio-view.jade
+                        include ./link-view.jade                  
                 .col.s12.m12.l9
-                   include ./showcase-view.jade
-                   
-                    
-        .lower-view
-            .row
-                .col.s12.m12.l3
-                    include ./link-view.jade
-                .col.s12.m9.l9
-                    .skills-view
+                    include ./showcase-view.jade
+
         
     
         

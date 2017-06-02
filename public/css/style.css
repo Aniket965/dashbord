@@ -45,7 +45,7 @@
 }
 
 .card {
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .card-title {
@@ -71,7 +71,7 @@
 }
 
 .card .graph {
-    height: 6.5rem;
+    height: 12.5rem;
     position: relative;
 }
 
@@ -90,12 +90,17 @@
 
 .statgrad {
     background: #ea0047;
-
 }
 
 .stats {
-    height: 4rem;
+    height: 10rem;
+    width: 10rem;
 }
-.stats-type{
-    font-size: 0.5rem;
+
+.stats-type {
+    font-size: 1rem;
+}
+
+.card-title .bfont{
+    font-size: 5rem!important;
 }
