@@ -2,36 +2,16 @@ body
 
     .app
         .upper-view
-            .row
-                .col.s12.m3.l3
-                    .portfolio-view
-                        .card.hoverable.grad
-                            .portfolio
-                                .row.portfolio-img.container
-                                    img(src="asserts/img/me.jpg").circle.responsive-img.hoverable.pad
-                                span.card-title
-                                        .center-align Aniket965
-                            .card-action
-                                .row
-                                    .col.s2.icon-size.m2.l2
-                                        i.fa.fa-github.fa-2x
-                                    .col.s2.icon-size.m2.l2
-                                        i.fa.fa-twitter.fa-2x
-                                    .col.s2.icon-size.m2.l2
-                                        i.fa.fa-rss.fa-2x
-                                    .col.s2.icon-size.m2.l2
-                                        i.fa.fa-linkedin.fa-2x
-                                    .col.s2.icon-size.m2.l2
-                                        i.fa.fa-facebook.fa-2x
-                                    .col.s2.icon-size.m2.l2
-                                        i.fa.fa-medium.fa-2x
-                                    
+            .row.nomarg
+                .col.s12.m12.l3.nopad.nomarg
+                    include ./portfolio-view.jade                  
                 .col.s12.m9.l9
-                    .links-view
+                   .showcase-view
+                    
         .lower-view
             .row
-                .col.s0.m3.l3
-                    .showcase-view
+                .col.s12.m12.l3
+                    include ./link-view.jade
                 .col.s12.m9.l9
                     .skills-view
         

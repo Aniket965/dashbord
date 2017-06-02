@@ -1,6 +1,7 @@
-.fa{
-    color:#d2ddef;
+.fa {
+    color: #d2ddef;
 }
+
 .fa-twitter:hover {
     color: #00aced;
 }
@@ -25,16 +26,31 @@
     color: #0077B5;
 }
 
-.grad{
-
-background: #56CCF2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.grad {
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.card{
+
+.card {
     padding: 1rem;
 }
-.card-title{
-    color:#d2ddef;
+
+.card-title {
+    color: #d2ddef;
+    margin: 0;
+}
+
+.nomarg {
+    margin: 0!important;
+}
+
+.nopad {
+    padding: 0;
+}
+.lv{
+    background: #ea0047;
 }
