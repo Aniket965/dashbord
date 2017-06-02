@@ -45,7 +45,7 @@
 }
 
 .card {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .card-title {
@@ -64,7 +64,39 @@
 .lv {
     background: #ea0047;
 }
-.updatemessage{
+
+.updatemessage {
     font-size: 0.5rem;
     color: #98a3b7;
+}
+
+.card .graph {
+    height: 6.5rem;
+    position: relative;
+}
+
+#graph:hover .card {
+    top: -2rem;
+}
+
+.cograd {
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.statgrad {
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.stats {
+    height: 4rem;
 }
