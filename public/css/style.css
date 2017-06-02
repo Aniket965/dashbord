@@ -100,6 +100,9 @@
 .stats-type {
     font-size: 1rem;
 }
+.stats-number{
+    font-size: 3rem;
+}
 
 .card-title .bfont{
     font-size: 5rem!important;
