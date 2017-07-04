@@ -1,0 +1,109 @@
+.fa {
+    color: #d2ddef;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa-facebook:hover {
+    color: #3b5999;
+}
+
+.fa-medium:hover {
+    color: #02b875;
+}
+
+.fa-github:hover {
+    color: #131418;
+}
+
+.fa-rss:hover {
+    color: #ea0047;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.grad {
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradinv {
+    background: #56CCF2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56CCF2, #2F80ED);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56CCF2, #2F80ED);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+    padding: 1rem;
+}
+
+.card-title {
+    color: #d2ddef;
+    margin: 0;
+}
+
+.nomarg {
+    margin: 0!important;
+}
+
+.nopad {
+    padding: 0;
+}
+
+.lv {
+    background: #ea0047;
+}
+
+.updatemessage {
+    font-size: 0.5rem;
+    color: #98a3b7;
+}
+
+.card .graph {
+    height: 12.5rem;
+    position: relative;
+}
+
+#graph:hover .card {
+    top: -2rem;
+}
+
+.cograd {
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.statgrad {
+    background: #ea0047;
+}
+
+.stats {
+    height: 10rem;
+    width: 10rem;
+}
+
+.stats-type {
+    font-size: 1rem;
+}
+.stats-number{
+    font-size: 3rem;
+}
+
+.card-title .bfont{
+    font-size: 5rem!important;
+}
