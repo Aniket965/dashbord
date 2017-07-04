@@ -20,6 +20,9 @@ function initializeSocialLinks() {
     $('.fa-medium').click(function () {
         window.open("https://medium.com/@aniket965", "medium");
     });
+    $('.fa-github').click(function () {
+        window.open("https://github.com/aniket965", "github");
+    });
 
 }
 
